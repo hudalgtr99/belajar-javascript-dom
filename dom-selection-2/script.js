@@ -22,7 +22,7 @@ const p = document.querySelectorAll('p');
 // ini mengubah satuan
 p[2].style.backgroundColor = 'lightblue';
 
-// ini mengubah sekaligus semua
+// ini mengubah semuanya sekaligus
 for (let i = 0; i < p.length; i++){
     p[i].style.backgroundColor = 'cyan';
 }
