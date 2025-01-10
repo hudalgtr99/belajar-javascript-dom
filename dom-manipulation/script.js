@@ -11,3 +11,6 @@
 // judul.style.color = 'lightblue';
 // judul.style.backgroundColor = 'salmon';
 
+// // element.setAttribute()
+// // element.getAttribute()
+// // element.removeAttribute()
