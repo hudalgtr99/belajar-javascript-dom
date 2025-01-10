@@ -9,3 +9,5 @@ judul.style.color = 'cyan';
 judul.style.backgroundColor = '#ccc';
 
 judul.innerHTML = "Miftahul Huda Guntara";
+
+// document.getElementsByTagName()
