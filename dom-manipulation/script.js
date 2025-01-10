@@ -20,3 +20,6 @@
 // // a.getAttribute('href'); 
 // judul.setAttribute('name', 'miftah');
 
+// const p2 = document.querySelector('.p2');
+// p2.setAttribute('class', 'label'); //ini akan menimmpa class p2 yg telah ada menjadi label
+
