@@ -31,3 +31,15 @@
 // // element.classList.item()
 // // element.classList.contains()
 // // element.classList.replace()
+
+const p2 = document.querySelector('.p2');
+p2.classList.add('label'); //menambah class pada p2 yaitu label
+p2.classList.remove('label'); //menghapus class pada p2 yaitu label
+p2.classList.toggle('label'); //menambah class label (jika tidak ada/True), menghapus class label (jika ada/false)
+
+p2.classList.add('satu');
+p2.classList.add('dua');
+p2.classList.add('tiga');
+p2.classList.item(2); //mengembalikan nilai urutan class ke-2 yaitu satu(0 = p2, 1 = label, 2 = satu, dst)
+
+p2.classList.contains('dua'); //return True (jika ada class bernama dua)
