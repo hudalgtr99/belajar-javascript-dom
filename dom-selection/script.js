@@ -12,7 +12,7 @@ judul.innerHTML = "Miftahul Huda Guntara";
 
 // document.getElementsByTagName()
 // return nilai HTMLCollection (dalam bentuk array)
-const p = document.getElementByTagName('p');
+const p = document.getElementsByTagName('p');
 
 // HTML Collection bersifar array, sehingga
 // perlu menambahkan index keberapanya disamping
