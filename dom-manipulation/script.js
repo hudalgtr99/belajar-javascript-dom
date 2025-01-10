@@ -17,9 +17,17 @@
 // const judul = document.getElementsByTagName('h1')[0];
 // const a = document.querySelector('section#a a');
 
-// // a.getAttribute('href'); 
+// a.getAttribute('href'); 
 // judul.setAttribute('name', 'miftah');
 
 // const p2 = document.querySelector('.p2');
 // p2.setAttribute('class', 'label'); //ini akan menimmpa class p2 yg telah ada menjadi label
 
+
+// // element.classList
+// // element.classList.add()
+// // element.classList.remove()
+// // element.classList.toggle()
+// // element.classList.item()
+// // element.classList.contains()
+// // element.classList.replace()
