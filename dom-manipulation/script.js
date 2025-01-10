@@ -43,3 +43,5 @@ p2.classList.add('tiga');
 p2.classList.item(2); //mengembalikan nilai urutan class ke-2 yaitu satu(0 = p2, 1 = label, 2 = satu, dst)
 
 p2.classList.contains('dua'); //return True (jika ada class bernama dua)
+
+p2.classList.replace('label', 'empat'); //menggantikan class label menjadi class empat
