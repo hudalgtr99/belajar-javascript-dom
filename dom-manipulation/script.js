@@ -9,4 +9,4 @@
 // // element.style.<property>
 const judul = document.querySelector('#judul');
 judul.style.color = 'lightblue';
-judul.style.backgroundCOlor = 'salmon';
+judul.style.backgroundColor = 'salmon';
