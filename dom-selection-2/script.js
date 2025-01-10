@@ -28,3 +28,14 @@ for (let i = 0; i < p.length; i++){
 }
 
 
+// // sectionB mempersempit jangkauan hanya di 'b', lalu diperkecil lagi menjadi 'p'
+// const sectionB = document.querySelector('section#b');
+// const p4 = sectionB.getElementsByTagName('p')[0];
+// p4.style.backgroundColor = 'red';
+
+// // sectionB mempersempit melalui id 'b', lalu ke paragraf 'p'
+// const sectionB = document.getElementById('b');
+// const p4 = sectionB.querySelector('p');
+// p4.style.backgroundColor = 'red';
+
+// // Kedua contoh diatas sama saja sesuai dengan kebutuhan
