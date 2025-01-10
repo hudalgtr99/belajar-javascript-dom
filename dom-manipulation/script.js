@@ -14,3 +14,6 @@
 // // element.setAttribute()
 // // element.getAttribute()
 // // element.removeAttribute()
+const judul = document.getElementsByTagName('h1')[0];
+
+judul.setAttribute('name', 'miftah');
