@@ -29,3 +29,8 @@ for (let i = 0; i < p.length; i++){
 // tidak perlu mengulanginya lagi
 const h1 = document.getElementsByTagName('h1')[0];
 h1.style.fontSize = '50px';
+
+// document.getElementsByClassName()
+// return nilai HTML Collention
+const p1 = document.getElementsByClassName('p1');
+p1[0].innerHTML = 'Ini diubah dari javascript';
