@@ -8,3 +8,4 @@ judul.style.color = 'cyan';
 // camelCase menjadi backgroundColor.
 judul.style.backgroundColor = '#ccc';
 
+judul.innerHTML = "Miftahul Huda Guntara";
