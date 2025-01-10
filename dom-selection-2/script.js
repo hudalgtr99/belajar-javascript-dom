@@ -39,3 +39,4 @@ for (let i = 0; i < p.length; i++){
 // p4.style.backgroundColor = 'red';
 
 // // Kedua contoh diatas sama saja sesuai dengan kebutuhan
+// disebut sebagai mengubah node root
