@@ -11,3 +11,5 @@ judul.style.backgroundColor = '#ccc';
 judul.innerHTML = "Miftahul Huda Guntara";
 
 // document.getElementsByTagName()
+// return nilai HTMLCollection (dalam bentuk array)
+const p = document.getElementByTagNAme('p');
