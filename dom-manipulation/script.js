@@ -14,6 +14,9 @@
 // // element.setAttribute()
 // // element.getAttribute()
 // // element.removeAttribute()
-const judul = document.getElementsByTagName('h1')[0];
+// const judul = document.getElementsByTagName('h1')[0];
+// const a = document.querySelector('section#a a');
 
-judul.setAttribute('name', 'miftah');
+// // a.getAttribute('href'); 
+// judul.setAttribute('name', 'miftah');
+
