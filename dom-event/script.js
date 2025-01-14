@@ -33,4 +33,10 @@ const p3 = document.querySelector('.p3');
 // // disaat terdapat dua buah function untuk event handler. 
 // // Maka, hanya function terakhir yang akan dijalankan, dan mengabaikan function2 sebelumnya
 
-
+//AddEventListener akan menjalankan semua function yg ada secara bersamaan meskipun lebih dari 1
+p3.addEventListener('click', function(){
+    p3.style.backgroundColor = 'lightblue';
+});
+p3.addEventListener('click', function(){
+    p3.style.color = 'red';
+});
