@@ -1,9 +1,13 @@
 const p3 = document.querySelector('.p3');
 
-function ubahWarna(){
+function ubahWarnaP2(){
+    p2.style.backgroundColor = 'lightblue';
+}
+
+function ubahWarnaP3(){
     p3.style.backgroundColor = 'lightblue';
 }
 
 const p2 = document.querySelector('.p2');
-p2.onclick = ubahWarna; // ubahWarna tidak perlu menggunakan kurung agar tidak langsung dirun ketika belum diklik
+p2.onclick = ubahWarnaP2; // ubahWarna tidak perlu menggunakan kurung agar tidak langsung dirun ketika belum diklik
 
