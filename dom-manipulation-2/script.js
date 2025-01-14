@@ -42,3 +42,11 @@ h2Baru.appendChild(teksH2Baru);
 
 // h2Baru mereplace p4 (paragraf 4) yang ada di sectionB
 sectionB.replaceChild(h2Baru, p4);
+
+// // Menandakan semua element yg baru
+pBaru.style.backgroundColor = 'lightgreen';
+liBaru.style.backgroundColor = 'lightgreen';
+h2Baru.style.backgroundColor = 'lightgreen';
+
+//// LINK METHOD YG LAINNYA
+// https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model
