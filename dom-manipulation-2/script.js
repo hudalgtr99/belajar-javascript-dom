@@ -27,7 +27,18 @@ const li2 = ul.querySelector('li:nth-child(2)'); // versi singkat untuk mengambi
 ul.insertBefore(liBaru, li2);
 
 
-
 // Menghapus link a href pada salah satu node di sectionA
 const link = document.getElementsByTagName('a')[0]; // mengambil tag a pertama
 sectionA.removeChild(link); //menghapus link ke arah tag a
+
+
+const sectionB = document.getElementById('b');
+const p4 = sectionB.querySelector('p'); //paragraf pertama pada section b
+
+const h2Baru = document.createElement('h2');
+const teksH2Baru = document.createTextNode('Judul Baru!');
+
+h2Baru.appendChild(teksH2Baru);
+
+// h2Baru mereplace p4 (paragraf 4) yang ada di sectionB
+sectionB.replaceChild(h2Baru, p4);
