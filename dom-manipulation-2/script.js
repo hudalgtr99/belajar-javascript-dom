@@ -14,3 +14,11 @@ const sectionA = document.getElementById('a');
 sectionA.appendChild(pBaru);
 
 // // insertBefore
+const liBaru = document.createElement('li');
+const teksLiBaru = document.createTextNode('Item Baru');
+
+liBaru.appendChild(teksLiBaru);
+
+const ul = document.querySelector('section#b ul');
+// const li2 = document.querySelector('section#b ul li:nth-child(2)'); // Versi panjang
+const li2 = ul.querySelector('li:nth-child(2)'); // versi singkat untuk mengambil li (list) urutan kedua/ li2
