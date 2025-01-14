@@ -40,3 +40,7 @@ p3.addEventListener('click', function(){
 p3.addEventListener('click', function(){
     p3.style.color = 'red';
 });
+
+
+////// SAUCE EVENT REFERENCE
+// https://developer.mozilla.org/en-US/docs/Web/Events
