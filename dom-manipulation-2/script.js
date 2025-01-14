@@ -25,3 +25,9 @@ const li2 = ul.querySelector('li:nth-child(2)'); // versi singkat untuk mengambi
 
 // Pada parent ul, liBaru di masukkan sebelum li2
 ul.insertBefore(liBaru, li2);
+
+
+
+// Menghapus link a href pada salah satu node di sectionA
+const link = document.getElementsByTagName('a')[0]; // mengambil tag a pertama
+sectionA.removeChild(link); //menghapus link ke arah tag a
