@@ -22,3 +22,6 @@ liBaru.appendChild(teksLiBaru);
 const ul = document.querySelector('section#b ul');
 // const li2 = document.querySelector('section#b ul li:nth-child(2)'); // Versi panjang
 const li2 = ul.querySelector('li:nth-child(2)'); // versi singkat untuk mengambil li (list) urutan kedua/ li2
+
+// Pada parent ul, liBaru di masukkan sebelum li2
+ul.insertBefore(liBaru, li2);
