@@ -23,3 +23,14 @@
 // })
 
 
+const p3 = document.querySelector('.p3');
+// p3.onclick = function(){
+//     p3.style.backgroundColor = 'lightblue';
+// }
+// p3.onclick = function(){
+//     p3.style.color = 'red';
+// }
+// // disaat terdapat dua buah function untuk event handler. 
+// // Maka, hanya function terakhir yang akan dijalankan, dan mengabaikan function2 sebelumnya
+
+
