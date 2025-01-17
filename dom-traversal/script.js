@@ -45,6 +45,7 @@ close.forEach(function(el){
     el.addEventListener('click', function(e){
         e.target.parentElement.style.display = 'none';
         e.preventDefault(); //untuk mencegah aksi default (khusus kasus disini, menghentikan auto refresh dari 'card a')
+        e.stopPropagation(); //Untuk menghentikan alert yang ada dibawah ketika tommbol x di click
     });
 });
 
