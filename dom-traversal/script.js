@@ -23,7 +23,7 @@
 
 
 // //Cara yang benar (sesuai traversal)
-const close = document.querySelectorAll('.close');
+// const close = document.querySelectorAll('.close');
 
 
 // //Contoh perulangan ke-1
