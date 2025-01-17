@@ -48,6 +48,14 @@ close.forEach(function(el){
     });
 });
 
+const cards = document.querySelectorAll('.card');
+cards.forEach(function(card){
+    card.addEventListener('click', function(e){
+        alert('ok');
+    });
+});
+
+
 // const nama = document.querySelector('.nama');
 // console.log(nama.parentNode); //Return card
 // console.log(nama.nextSibling); //Return #text karna node sesudahnyaa adalah 'enter'
