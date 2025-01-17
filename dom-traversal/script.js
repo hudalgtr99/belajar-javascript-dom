@@ -25,15 +25,24 @@
 // //Cara yang benar (sesuai traversal)
 const close = document.querySelectorAll('.close');
 
-for(let i = 0; i < close.length; i++){
 
-    // // Cara simple
-    // close[i].addEventListener('click', function(){
-    //     close[i].parentElement.style.display = 'none';
-    // }); 
+// //Contoh perulangan ke-1
+// for(let i = 0; i < close.length; i++){
 
-    // Cara kompleks
-    close[i].addEventListener('click', function(){
-        close[i].parentElement.style.display = 'none';
+//     // // Cara simple
+//     // close[i].addEventListener('click', function(){
+//     //     close[i].parentElement.style.display = 'none';
+//     // }); 
+
+//     // Cara yang benar
+//     close[i].addEventListener('click', function(e){
+//         e.target.parentElement.style.display = 'none';
+//     });
+// }
+
+//Contoh Perulangan ke-2
+close.forEach(function(el){
+    el.addEventListener('click', function(e){
+        e.target.parentElement.style.display = 'none';
     });
-}
+});
