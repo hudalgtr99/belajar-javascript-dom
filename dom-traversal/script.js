@@ -46,3 +46,9 @@ close.forEach(function(el){
         e.target.parentElement.style.display = 'none';
     });
 });
+
+const nama = document.querySelector('.nama');
+console.log(nama.parentNode); //Return card
+console.log(nama.nextSibling); //Return #text karna node sesudahnyaa adalah 'enter'
+console.log(nama.nextElementSibling.nextElementSibling); //Return telp
+console.log(nama.previousElementSibling); //Return null, karna tidak ada kakak dari si name
