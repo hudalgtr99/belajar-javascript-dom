@@ -62,3 +62,11 @@
 // console.log(nama.nextSibling); //Return #text karna node sesudahnyaa adalah 'enter'
 // console.log(nama.nextElementSibling.nextElementSibling); //Return telp
 // console.log(nama.previousElementSibling); //Return null, karna tidak ada kakak dari si name
+
+const container = document.querySelector('.container');
+
+container.addEventListener('click', function(e){
+    if (e.target.className == 'close'){
+        e.target.parentElement.style.display = 'none';
+    }
+});
