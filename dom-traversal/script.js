@@ -40,21 +40,21 @@ const close = document.querySelectorAll('.close');
 //     });
 // }
 
-//Contoh Perulangan ke-2
-close.forEach(function(el){
-    el.addEventListener('click', function(e){
-        e.target.parentElement.style.display = 'none';
-        e.preventDefault(); //untuk mencegah aksi default (khusus kasus disini, menghentikan auto refresh dari 'card a')
-        e.stopPropagation(); //Untuk menghentikan alert yang ada dibawah ketika tommbol x di click
-    });
-});
+// //Contoh Perulangan ke-2
+// close.forEach(function(el){
+//     el.addEventListener('click', function(e){
+//         e.target.parentElement.style.display = 'none';
+//         e.preventDefault(); //untuk mencegah aksi default (khusus kasus disini, menghentikan auto refresh dari 'card a')
+//         e.stopPropagation(); //Untuk menghentikan alert yang ada dibawah ketika tommbol x di click
+//     });
+// });
 
-const cards = document.querySelectorAll('.card');
-cards.forEach(function(card){
-    card.addEventListener('click', function(e){
-        alert('ok');
-    });
-});
+// const cards = document.querySelectorAll('.card');
+// cards.forEach(function(card){
+//     card.addEventListener('click', function(e){
+//         alert('ok');
+//     });
+// });
 
 
 // const nama = document.querySelector('.nama');
